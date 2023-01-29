@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "robotcar_dataset_sdk"
+version = "3.2.0"
+authors = [
+  { name="Nils Morbitzer" },
+]
+description = "The robotcar dataset sdk"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Free for non-commercial use",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "colour_demosaicing",
+    "pillow",
+    "opencv-python",
+    "open3d-python"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ori-mrg/robotcar-dataset-sdk"
+"Bug Tracker" = "https://github.com/ori-mrg/robotcar-dataset-sdk/issues"
