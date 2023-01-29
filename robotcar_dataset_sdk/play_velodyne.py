@@ -16,13 +16,13 @@
 import argparse
 from argparse import RawTextHelpFormatter
 import os
-from velodyne import load_velodyne_raw, load_velodyne_binary, velodyne_raw_to_pointcloud
+from robotcar_dataset_sdk.velodyne import load_velodyne_raw, load_velodyne_binary, velodyne_raw_to_pointcloud
 import numpy as np
 import cv2
 from matplotlib.cm import get_cmap
 from scipy import interpolate
 import open3d
-from transform import build_se3_transform
+from robotcar_dataset_sdk.transform import build_se3_transform
 
 mode_flag_help = """Mode to run in, one of: (raw|raw_interp|raw_ptcld|bin_ptcld)
 - 'raw' - visualise the raw velodyne data (intensities and ranges)

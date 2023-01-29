@@ -19,7 +19,7 @@ from tqdm import tqdm
 import numpy as np
 
 from datetime import datetime as dt
-from road_boundary import load_road_boundary_image, load_road_boundary_mask
+from robotcar_dataset_sdk.road_boundary import load_road_boundary_image, load_road_boundary_mask
 
 
 YELLOW = (255, 255, 0)

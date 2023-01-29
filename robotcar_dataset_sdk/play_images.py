@@ -17,8 +17,8 @@ import os
 import re
 import matplotlib.pyplot as plt
 from datetime import datetime as dt
-from image import load_image
-from camera_model import CameraModel
+from robotcar_dataset_sdk.image import load_image
+from robotcar_dataset_sdk.camera_model import CameraModel
 
 parser = argparse.ArgumentParser(description='Play back images from a given directory')
 

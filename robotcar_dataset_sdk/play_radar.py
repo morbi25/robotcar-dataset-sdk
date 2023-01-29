@@ -14,7 +14,7 @@
 
 import argparse
 import os
-from radar import load_radar, radar_polar_to_cartesian
+from robotcar_dataset_sdk.radar import load_radar, radar_polar_to_cartesian
 import numpy as np
 import cv2
 
